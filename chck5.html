@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MS Office Word</title> <link rel="icon" type="image/png" href="res/word.png">
+<link rel="stylesheet" type="text/css" href="css/style.css"> 
+</head>
+<body bgcolor="black">
+	<span id="toolbar">
+	 <button class="fontweight" id="bold" ><b>B</b></button>
+     <button class="fontweight" id="italic"><i>I</i></button>
+	 <button class="fontweight" id="underline"><u>U</u></button>
+	 <span class="dropdownfonts" >
+	    <button id="dropdown" >Fonts</button><br>
+	    <span id="fonts">
+		<button class="fonts">Arial</button><br>
+		<button class="fonts">Calibri</button><br>
+		<button class="fonts">Century Gothic</button><br>
+		<button class="fonts">Comic Sans</button><br>
+		<button class="fonts">Consolas</button><br>
+		<button class="fonts">Courier</button><br>
+		<button class="fonts">MV Boli</button><br>
+		<button class="fonts">Times New Roman</button><br>
+	    </span> 
+	 </span>
+
+	 <span class="dropdownsize">
+	    <button id="size">Size</button><br>
+	    <span id="sizes">
+	    <button class="sizes" >10</button><br>
+	    <button class="sizes" >12</button><br>
+		<button class="sizes" >14</button><br>
+		<button class="sizes" >16</button><br>
+		<button class="sizes" >18</button><br>
+		<button class="sizes" >20</button><br>
+		<button class="sizes" >22</button><br>
+		<button class="sizes" >24</button><br>
+		</span>
+	    </span>
+	
+	</span>
+    <br>
+
+ <p class="p" id="p">This checkpoint is, by far, the most annoying of all.
+ <br> I have struggled too much to create this.
+ <br> We're going to make a program that looks like Microsoft Word. 
+
+ <br> 
+There will be one paragrah and a bunch of buttons.
+<br> 
+Each button will have an onclick attribute that will link to a different javascript function.  
+<br> 
+These buttons will have unique names and should do the following : 
+<br> 
+	-one button to make the paragraph bold
+<br> 
+	-one button to make the paragraph italic
+<br> 
+        -one button to make the paragraph underlined
+<br> 
+        -one dropdown list that will have a bunch of fonts, and when you click on one the paragraph’s font will change to it. <br> 
+
+        - one dropdown list that will have a bunch of numbers (choose whatever you want) and when you click on it the paragraph’s font size changes to that.
+<br> 
+
+
+All these buttons will be in one line and above the paragraph.
+<br> 
+You are free to make the styling like you want.
+<br> 
+</p>
+<br>
+<button id="bulb"><img id="show" width="30%" src="res/light.png"> <br> CLICK ON THE LIGHT BULB! </button>
+<p id="p"> </p>
+
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="js/main.js">
+
+</script>
+
+</html>

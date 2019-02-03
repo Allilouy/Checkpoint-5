@@ -1,0 +1,50 @@
+.p{display:none;
+  color: white;}
+  
+#toolbar{display: none;}
+
+.fonts {display: none;
+  position: relative;
+  background-color: #f1f1f1;
+  min-width: 300px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+}
+.sizes {display: none;
+  position: relative;
+  background-color: #f1f1f1;
+  min-width: 72px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+}
+
+#dropdown, #size, .fontweight{
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: green solid 5px;
+display: inline-block;
+}
+
+
+#fonts, #sizes{ 
+  display: inline;
+  position: relative;
+}
+.dropdownfonts, .dropdownsize {
+  display:inline-block;
+  }
+  #sizes, #fonts {
+    display:block;
+    position:absolute;
+    }
+    
+
+#dropdownfonts{position: relative;
+  display: inline-block;  
+}
+#dropdown:hover, #dropdown:focus {
+  background-color: #2980B9;
+}
+
